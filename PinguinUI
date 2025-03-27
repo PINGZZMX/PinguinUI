@@ -1560,6 +1560,7 @@ function Section:AddInput(inputConfig)
         InputBox.TextColor3 = Color3.new(0, 0, 0)
         InputBox.TextSize = 14
         InputBox.PlaceholderText = inputConfig.PlaceholderText or ""
+        InputBox.PlaceholderColor3 = Color3.fromRGB(11, 11, 11)
         InputBox.ClipsDescendants = true
         InputBox.ClearTextOnFocus = inputConfig.ClearTextOnFocus ~= nil and inputConfig.ClearTextOnFocus or false
 
