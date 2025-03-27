@@ -1557,7 +1557,7 @@ function Section:AddInput(inputConfig)
         InputBox.Size = UDim2.new(0, 90, 0, 25)
         InputBox.Font = Enum.Font.GothamSemibold
         InputBox.Text = Input.Value
-        InputBox.TextColor3 = Library.Theme.TextColor
+        InputBox.TextColor3 = Color3.new(0, 0, 0)
         InputBox.TextSize = 14
         InputBox.PlaceholderText = inputConfig.PlaceholderText or ""
         InputBox.ClipsDescendants = true
